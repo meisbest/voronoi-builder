@@ -1,0 +1,40 @@
+#map {
+  height: 800px;
+  width: 800px;
+  position: relative;
+  border: 3px solid black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#map .point {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #000000;
+  position: absolute;
+}
+
+#map .point.special {
+  background-color: #FF0000;
+}
+
+#map .point.tmp {
+  background-color: #FFFFFF;
+  height: 1px;
+  width: 1px;
+}
+
+#settings {
+  display: inline-block;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+.line.diff {
+  background-color: yellow;
+}
